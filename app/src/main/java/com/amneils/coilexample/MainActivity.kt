@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
         myImageView.load(distantImageUrl) {
             placeholder(R.drawable.ic_launcher_background)
             transformations(CircleCropTransformation())
+            transformations(CircleCropTransformation())
+            transformations(CircleCropTransformation())
         }
 
 
